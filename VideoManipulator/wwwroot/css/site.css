@@ -31,3 +31,15 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+h1, h2, h3, h4{
+    text-align:center;
+}
+
+th, td{
+    padding:10px;
+}
+
+th{
+    text-align:center;
+}
