@@ -20,11 +20,11 @@
             </tr>
             <tr>
                 <th>Choose file:</th>
-                <td asp-for="File"><input type="file" /></td>
+                <td id="uploadField"><input name="File" type="file" /></td>
             </tr>
             <tr>
-                <th colspan="2">
-                    <input type="submit" value="Upload" />
+                <th colspan="2" id="uploadButton">
+                      <input type='submit' value='Upload' />  
                 </th>
             </tr>
         </table>
@@ -44,3 +44,14 @@
 <div>
 
 </div>
+
+
+
+@* ============================ SCRIPT =================================== *@
+<script>
+    // if(document.getElementById("uploadField").value <= 0){
+    //     document.getElementById("uploadButton").innerHTML = "<input type='submit' value='Upload' />";
+    // }else{
+    //     document.getElementById("uploadButton").innerHTML = "<button type='submit' value='Upload' disabled />";
+    // }
+</script>
